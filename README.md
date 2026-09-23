@@ -51,10 +51,14 @@ Seluruh pembersihan data menggunakan Microsoft Excel, sehingga menghasilkan tabe
 
 ### 4.1 Strategi Pembersihan Data
   * Mengubah type data column unit price dan rating (Text to Numeric/Value) menggunakan formula 'Substitute' dan 'Value'.
+    ![Data Cleaning](Images/unit-price.png)
   * Mengubah format Date menjadi MM/DD/YYYY menggunakan Text to Columns.
   * Melakukan recalculation pada kolom COGS berdasarkan Unit Price × Quantity
+    ![Data Cleaning](Images/cogs.png)
   * Menghitung kembali Tax 5% berdasarkan COGS × 5% karena ditemukan ketidaksesuaian pada sebagian nilai.
+    ![Data Cleaning](Images/tax.png)
   * Menghitung kembali Sales/Total berdasarkan COGS + Tax 5%.
+    ![Data Cleaning](Images/sales.png)
   * Menghitung kembali Gross Income berdasarkan Sales − COGS.
   * Menghitung kembali Gross Margin % berdasarkan Gross Income / Sales.
     
