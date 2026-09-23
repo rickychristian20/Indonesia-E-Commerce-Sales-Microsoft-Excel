@@ -85,9 +85,9 @@ Analisis dilakukan berdasarkan beberapa dimensi dan metrik bisnis yang tersedia 
 ### 5.2 Performance Metrics
 Metrik utama yang digunakan dalam analisis ini meliputi:
 
-* **Total Sales:** Total nilai pendapatan dari seluruh transaksi penjualan.
+* **Total Sales:** Total amount pendapatan dari seluruh transaksi penjualan.
 * **Total Quantity:** Total unit produk yang berhasil terjual.
-* **Average Transaction Value (ATV):** Rata-rata nilai belanja per transaksi.
+* **Average Transaction Value (ATV):** Rata-rata rating per transaksi.
 * **Gross Income:** Total keuntungan kotor yang diperoleh.
 * **Gross Margin %:** Persentase margin keuntungan kotor terhadap total penjualan.
 * **Average Customer Rating:** Rata-rata skor kepuasan pelanggan (skala 1–10).
