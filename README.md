@@ -43,7 +43,7 @@ Menganalisis pola penjualan berdasarkan produk, pelanggan, lokasi, metode pembay
 | **Key Metrics** | Sales, Quantity, Gross Income & Rating |
 
 ## 3. Tools
-
+![tools](Images/tools.png)
 
 ## 4. Data Cleaning
 Seluruh pembersihan data menggunakan Microsoft Excel, sehingga menghasilkan tabel-tabel bersih yang akan menjadi fondasi bagi analisis selanjutnya."
