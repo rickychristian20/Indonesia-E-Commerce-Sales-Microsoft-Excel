@@ -30,9 +30,11 @@ Table Of Contents
 
 2. Data Source
    Markdown
-|Source          | Public Supermarket Sales Dataset             |
-|Period          | Jan–Mar 2019                                 |
-|Records         | 1,000 transactions                           | 
-|Coverage        | 3 branches, 3 cities, 6 product categories   |
-|Key Dimensions  | Customer, Product, Location, Payment & Time  |
-|Key Metrics     | Sales, Quantity, Gross Income & Rating       |
+| Dimensi | Keterangan |
+| :--- | :--- |
+| **Source** | Public Supermarket Sales Dataset |
+| **Period** | Jan–Mar 2019 |
+| **Records** | 1,000 transactions |
+| **Coverage** | 3 branches, 3 cities, 6 product categories |
+| **Key Dimensions** | Customer, Product, Location, Payment & Time |
+| **Key Metrics** | Sales, Quantity, Gross Income & Rating |
