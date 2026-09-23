@@ -48,7 +48,7 @@ Menganalisis pola penjualan berdasarkan produk, pelanggan, lokasi, metode pembay
 ## 4. Data Cleaning
 Seluruh pembersihan data menggunakan Microsoft Excel, sehingga menghasilkan tabel-tabel bersih yang akan menjadi fondasi bagi analisis selanjutnya."
 
-### 4.1 Strategi Pembersihan Data (*Cleaning Strategy*)
+### 4.1 Strategi Pembersihan Data
   * Mengubah type data column unit price dan rating (Text to Numeric/Value) menggunakan formula 'Substitute' dan 'Value'.
   * Mengubah format Date menjadi MM/DD/YYYY menggunakan Text to Columns.
   * Melakukan recalculation pada kolom COGS berdasarkan Unit Price × Quantity
@@ -57,7 +57,7 @@ Seluruh pembersihan data menggunakan Microsoft Excel, sehingga menghasilkan tabe
   * Menghitung kembali Gross Income berdasarkan Sales − COGS.
   * Menghitung kembali Gross Margin % berdasarkan Gross Income / Sales.
     
-### 4.2 Audit Column is_clean
+### 4.2 Audit Column
 Melakukan data validation menggunakan pengecekan tipe data (ISNUMBER) untuk memastikan kolom numerik dan tanggal telah berhasil dikonversi.
 
 ## 5. Sales Performance Analysis & Metrics
