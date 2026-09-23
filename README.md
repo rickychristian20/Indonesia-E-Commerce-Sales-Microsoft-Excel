@@ -75,7 +75,7 @@ Analisis dilakukan berdasarkan beberapa dimensi dan metrik bisnis yang tersedia 
 | Dimension | Metric yang dianalisis | Tujuan |
 | :--- | :--- | :--- |
 | **Product Category** | Total Sales, Sales Contribution %, Quantity, Gross Income | Menilai kontribusi dan performa tiap kategori produk |
-| **Branch / City** | Total Sales, Count Transaction Value, Quantity, Rating | Membandingkan performa dan *customer experience* antar lokasi |
+| **Branch & City** | Total Sales, Count Transaction Value, Quantity, Rating | Membandingkan performa dan *customer experience* antar lokasi |
 | **Customer Type** | Total Sales, Sales Contribution %, Count Transaction Value, Quantity | Memahami kontribusi dan nilai transaksi Member vs Normal |
 | **Gender** | Total Sales, Quantity, CountTransaction Value | Mengidentifikasi pola pembelian berdasarkan gender |
 | **Payment Method** | Transaction Count, Total Sales, Sales Contribution % | Memahami preferensi pembayaran dan kontribusinya terhadap transaksi |
