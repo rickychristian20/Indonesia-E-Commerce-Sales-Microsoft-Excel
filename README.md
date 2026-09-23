@@ -110,7 +110,7 @@ Metrik utama yang digunakan dalam analisis ini meliputi:
  Perbedaannya relatif kecil (stabil), sehingga secara keseluruhan performa penjualan antar cabang cukup merata.
 
 ### 2. Product Category Performance
-* **Food & Beverages** menghasilkan *sales* tertinggi sebesar **$56,144.84**, sementara **Health & Beauty** mencatatkan *sales* terendah sebesar **$49,193.74**.
+* **-----------**.
  > **Insight:** Terdapat perbedaan kontribusi antar kategori produk yang dapat dijadikan dasar dalam mengevaluasi strategi *product mix* dan alokasi stok.
 
 ### 3. Customer Segment
