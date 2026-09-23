@@ -6,7 +6,7 @@ Table Of Contents
 2. Data Source
 3. Tool 
 4. Data Cleaning
-5. Data Extraction & Feature Engineering
+5. Sales Performance & Customer Segment Analysis.
 6. Key Findings
 7. Dashboard
 8. Insight
@@ -44,7 +44,6 @@ Menganalisis pola penjualan berdasarkan produk, pelanggan, lokasi, metode pembay
 
 ## 3. Tools
 
-## 3. Environment & Tech Stack
 
 ## 4. Data Cleaning
 Seluruh pembersihan data menggunakan Microsoft Excel, sehingga menghasilkan tabel-tabel bersih yang akan menjadi fondasi bagi analisis selanjutnya."
@@ -60,3 +59,30 @@ Seluruh pembersihan data menggunakan Microsoft Excel, sehingga menghasilkan tabe
     
 ### 4.2 Audit Column is_clean
 Melakukan data validation menggunakan pengecekan tipe data (ISNUMBER) untuk memastikan kolom numerik dan tanggal telah berhasil dikonversi.
+
+## 5. Sales Performance Analysis & Metrics
+
+### 5.1 Sales Performance Analysis
+Analisis dilakukan berdasarkan beberapa dimensi bisnis yang tersedia dalam dataset, yaitu *product category*, *branch*, *customer type*, *gender*, *payment method*, dan *month*.
+
+| Dimension | Metric | Purpose |
+| :--- | :--- | :--- |
+| **Product Category** | Total Sales, Quantity, Rating | Mengidentifikasi kategori dengan kontribusi dan performa berbeda |
+| **Branch** | Total Sales, Quantity, Rating | Membandingkan performa antar cabang |
+| **Customer Type** | Total Sales, Quantity, Rating | Membandingkan kontribusi Member vs Normal |
+| **Gender** | Total Sales, Quantity, Rating | Memahami pola pembelian berdasarkan gender |
+| **Payment Method** | Total Sales, Quantity | Mengidentifikasi preferensi metode pembayaran |
+| **Month** | Total Sales, Quantity, Rating | Menganalisis tren dan perubahan performa berdasarkan waktu |
+
+---
+
+### 5.2 Performance Metrics
+Metrik utama yang digunakan dalam analisis ini meliputi:
+
+* **Total Sales:** Total nilai pendapatan dari seluruh transaksi penjualan.
+* **Total Quantity:** Total unit produk yang berhasil terjual.
+* **Average Transaction Value (ATV):** Rata-rata nilai belanja per transaksi.
+* **Gross Income:** Total keuntungan kotor yang diperoleh.
+* **Gross Margin %:** Persentase margin keuntungan kotor terhadap total penjualan.
+* **Average Customer Rating:** Rata-rata skor kepuasan pelanggan (skala 1–10).
+* **Sales Contribution %:** Persentase kontribusi penjualan dari setiap segmen/kategori terhadap total pendapatan.
