@@ -72,12 +72,12 @@ Analisis dilakukan berdasarkan beberapa dimensi dan metrik bisnis yang tersedia 
 | Dimension | Metric yang dianalisis | Tujuan |
 | :--- | :--- | :--- |
 | **Product Category** | Total Sales, Sales Contribution %, Quantity, Gross Income | Menilai kontribusi dan performa tiap kategori produk |
-| **Branch / City** | Total Sales, Average Transaction Value, Quantity, Rating | Membandingkan performa dan *customer experience* antar lokasi |
-| **Customer Type** | Total Sales, Sales Contribution %, Avg. Transaction Value, Quantity | Memahami kontribusi dan nilai transaksi Member vs Normal |
-| **Gender** | Total Sales, Quantity, Avg. Transaction Value | Mengidentifikasi pola pembelian berdasarkan gender |
+| **Branch / City** | Total Sales, Count Transaction Value, Quantity, Rating | Membandingkan performa dan *customer experience* antar lokasi |
+| **Customer Type** | Total Sales, Sales Contribution %, Count Transaction Value, Quantity | Memahami kontribusi dan nilai transaksi Member vs Normal |
+| **Gender** | Total Sales, Quantity, CountTransaction Value | Mengidentifikasi pola pembelian berdasarkan gender |
 | **Payment Method** | Transaction Count, Total Sales, Sales Contribution % | Memahami preferensi pembayaran dan kontribusinya terhadap transaksi |
-| **Month** | Total Sales, MoM Growth %, Quantity, Average Transaction Value | Mengidentifikasi perubahan dan fluktuasi performa penjualan |
-| **Product Category × Customer Type** | Sales, Quantity, Avg. Transaction Value | Menemukan kombinasi produk dan segmen pelanggan yang potensial |
+| **Month** | Total Sales, Quantity, Count Transaction Value | Mengidentifikasi perubahan dan fluktuasi performa penjualan |
+| **Product Category × Customer Type** | Sales, Quantity,Count Transaction Value | Menemukan kombinasi produk dan segmen pelanggan yang potensial |
 | **Product Category × Branch** | Sales, Sales Contribution %, Quantity | Mengidentifikasi kategori yang kuat/lemah di setiap cabang |
 
 ---
@@ -87,7 +87,6 @@ Metrik utama yang digunakan dalam analisis ini meliputi:
 
 * **Total Sales:** Total amount pendapatan dari seluruh transaksi penjualan.
 * **Total Quantity:** Total unit produk yang berhasil terjual.
-* **Average Transaction Value (ATV):** Rata-rata rating per transaksi.
 * **Gross Income:** Total keuntungan kotor yang diperoleh.
 * **Gross Margin %:** Persentase margin keuntungan kotor terhadap total penjualan.
 * **Average Customer Rating:** Rata-rata skor kepuasan pelanggan (skala 1–10).
