@@ -12,24 +12,27 @@ Table Of Contents
 8. Insight
 9. Recommendations
 
-1. Business Understanding
-   1.1 Business Background
-     Bisnis retail supermarket dengan beberapa cabang dan berbagai kategori produk. Perusahaan melayani pelanggan Member dan Normal melalui metode pembayaran Cash, Credit Card, dan Ewallet. Data transaksi digunakan untuk menganalisis performa penjualan berdasarkan produk, pelanggan, lokasi, pembayaran, dan periode waktu.
+## 1. Business Understanding
 
-  1.2 Business Problem
-    Perusahaan perlu memahami pola dan variasi performa penjualan berdasarkan produk, pelanggan, lokasi, metode pembayaran, dan waktu untuk mengidentifikasi segmen yang berkontribusi besar serta area yang perlu diperhatikan.
+### 1.1 Business Background
+Bisnis retail supermarket dengan beberapa cabang dan berbagai kategori produk. Perusahaan melayani pelanggan Member dan Normal melalui metode pembayaran Cash, Credit Card, dan Ewallet. Data transaksi digunakan untuk menganalisis performa penjualan berdasarkan produk, pelanggan, lokasi, pembayaran, dan periode waktu.
 
-  1.3  Project Objectives
-    Menganalisis pola penjualan berdasarkan produk, pelanggan, lokasi, metode pembayaran, dan waktu untuk mengidentifikasi kontribusi setiap segmen serta menghasilkan insight yang mendukung pengambilan keputusan bisnis.
+### 1.2 Business Problem
+Perusahaan perlu memahami pola dan variasi performa penjualan berdasarkan produk, pelanggan, lokasi, metode pembayaran, dan waktu untuk mengidentifikasi segmen yang berkontribusi besar serta area yang perlu diperhatikan.
 
-  1.4 Bisnis Questions
-    - Apakah terdapat perbedaan pola penjualan berdasarkan segmen pelanggan, produk, lokasi, dan metode pembayaran?
-    - Area mana yang perlu dipertahankan dan area yang memiliki potensi peningkatan?
-    - Apa penyebab perubahan sales antar periode?
-    - Seberapa Efektif membership dan pola pembelian pelanggan?
+### 1.3 Project Objectives
+Menganalisis pola penjualan berdasarkan produk, pelanggan, lokasi, metode pembayaran, dan waktu untuk mengidentifikasi kontribusi setiap segmen serta menghasilkan insight yang mendukung pengambilan keputusan bisnis.
 
-2. Data Source
-   Markdown
+### 1.4 Business Questions
+* Apakah terdapat perbedaan pola penjualan berdasarkan segmen pelanggan, produk, lokasi, dan metode pembayaran?
+* Area mana yang perlu dipertahankan dan area yang memiliki potensi peningkatan?
+* Apa penyebab perubahan sales antar periode?
+* Seberapa efektif membership dan pola pembelian pelanggan?
+
+---
+
+## 2. Data Source
+
 | Dimensi | Keterangan |
 | :--- | :--- |
 | **Source** | Public Supermarket Sales Dataset |
