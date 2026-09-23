@@ -92,3 +92,65 @@ Metrik utama yang digunakan dalam analisis ini meliputi:
 * **Gross Margin %:** Persentase margin keuntungan kotor terhadap total penjualan.
 * **Average Customer Rating:** Rata-rata skor kepuasan pelanggan (skala 1–10).
 * **Sales Contribution %:** Persentase kontribusi penjualan dari setiap segmen/kategori terhadap total pendapatan.
+
+### 5.4 Table analisa Final
+
+| Analytical Table | Digunakan untuk |
+| :--- | :--- |
+| **sales_performance_summary** | Overall business performance |
+| **product_category_summary** | Product performance |
+| **branch_performance_summary** | Branch comparison |
+| **customer_segment_summary** | Member vs Normal analysis |
+| **monthly_sales_summary** | Sales trend analysis |
+
+## 6. Key Findings
+
+### 1. Sales Performance by Branch
+* **Giza** mencatatkan *sales* tertinggi sebesar **$110,568.71**, sedangkan **Cairo** mencatat *sales* terendah sebesar **$106,197.67**. 
+* Perbedaannya relatif kecil (stabil), sehingga secara keseluruhan performa penjualan antar cabang cukup merata.
+
+### 2. Product Category Performance
+* **Food & Beverages** menghasilkan *sales* tertinggi sebesar **$56,144.84**, sementara **Health & Beauty** mencatatkan *sales* terendah sebesar **$49,193.74**.
+* > **Insight:** Terdapat perbedaan kontribusi antar kategori produk yang dapat dijadikan dasar dalam mengevaluasi strategi *product mix* dan alokasi stok.
+
+### 3. Customer Segment
+* **Member** menghasilkan *sales* sebesar **$189,694.76** (*volume* 3,181 unit), jauh lebih tinggi dibandingkan **Normal Customer** sebesar **$133,271.99** (*volume* 2,329 unit).
+* > **Insight:** Segmen *Member* merupakan pendorong utama kontribusi penjualan bisnis.
+
+### 4. Payment Behavior
+* **Cash** menjadi metode pembayaran utama dengan *sales* tertinggi sebesar **$112,206.57**, diikuti oleh **Credit Card** sebesar **$100,767.07**.
+* > **Insight:** Transaksi tunai (*Cash*) masih menjadi preferensi dominan pelanggan selama periode pengamatan.
+
+### 5. Sales Trend (Monthly Performance)
+* Penjualan tertinggi terjadi pada **Januari ($116,291.87)**, kemudian mengalami penurunan pada **Februari ($97,219.37)**, sebelum akhirnya bangkit kembali pada **Maret ($109,455.51)**.
+* > **Insight:** Performa penjualan menunjukkan pola fluktuasi periodik, bukan tren penurunan yang konsisten secara jangka panjang.
+
+### 6. Customer Experience (Rating)
+* Rata-rata kepuasan pelanggan (*rating*) berada pada angka **7.0 / 10.0**. 
+* **Giza** memiliki *rating* tertinggi (**7.1**), sedangkan **Cairo** mencatatkan *rating* terendah (**6.8**).
+* > **Insight:** Variasi *rating* antar cabang relatif tipis, sehingga evaluasi pengalaman pelanggan perlu dipadukan dengan metrik volume penjualan untuk analisis lebih mendalam.
+  
+## 7. Dashboard
+Project ini dirancang sebagai analisis end-to-end yang membentuk satu alur cerita, mulai dari identifikasi business problem, eksplorasi data, penemuan insight, hingga penyusunan dasar rekomendasi bisnis.
+
+## 8. Insight
+
+## 9. Recommendations
+
+
+## 7. Limitations & Methodology Notes
+
+> **Catatan Metodologi & Keterbatasan Data:**
+> Beberapa batasan dan konteks metodologi yang perlu diperhatikan dalam menginterpretasikan hasil analisis proyek ini.
+
+* **Cakupan Data Terbatas:** Dataset terbatas pada **1.000 transaksi** dalam rentang waktu Januari hingga Maret 2019.
+* **Ketiadaan *Customer ID*:** Tidak terdapat variabel *Customer ID* unik, sehingga analisis tingkat individu seperti **RFM, Customer Lifetime Value (CLV), Churn, dan Retention** tidak dapat dilakukan.
+* **Korelasi Lokasi:** Variabel *Branch* (Cabang) dan *City* (Kota) memiliki hubungan *1-to-1* (saling berpasangan secara identik) dalam dataset ini.
+* **Sifat Analisis:** Temuan analisis ini bersifat **deskriptif dan diagnostik** (*descriptive/diagnostic*), bukan menunjukkan hubungan sebab-akibat (*causal relationship*).
+* **Ketersediaan Data Operasional:** Tidak tersedia data pendukung seperti *inventory/stok*, biaya promosi, biaya pemasaran (*marketing cost*), maupun biaya operasional (*operational cost*).
+* **Penggunaan *Customer Rating*:** Indikator *Customer Rating* digunakan hanya sebagai **indikator pendukung** (*supporting indicator*), bukan sebagai pemicu utama (*causal driver*) dari penjualan.
+
+Dataset  : https://www.kaggle.com/datasets/faresashraf1001/supermarket-sales
+Microsoft Excel  :
+EDA      : 
+Dashboard  :
