@@ -46,9 +46,17 @@ Menganalisis pola penjualan berdasarkan produk, pelanggan, lokasi, metode pembay
 
 ## 3. Environment & Tech Stack
 
-```mermaid
-graph LR
-    A[1. RAW DATA<br><b>Kaggle Dataset</b><br><i>Supermarket Sales Data</i>] --> B[2. DATA CLEANING<br><b>Microsoft Excel</b><br><i>Power Query & Data Prep</i>]
-    B --> C[3. DATA ANALYSIS<br><b>Microsoft Excel</b><br><i>Pivot Tables & Formulas</i>]
-    C --> D[4. DASHBOARD<br><b>Microsoft Excel</b><br><i>Interactive Charts & Slicers</i>]
-    D --> E[5. INSIGHT & ACTION<br><b>Final Output</b><br><i>Strategic Recommendations</i>]
+## 4. Data Cleaning
+Seluruh pembersihan data menggunakan Microsoft Excel, sehingga menghasilkan tabel-tabel bersih yang akan menjadi fondasi bagi analisis selanjutnya."
+
+### 4.1 Strategi Pembersihan Data (*Cleaning Strategy*)
+  * Mengubah type data column unit price dan rating (Text to Numeric/Value) menggunakan formula 'Substitute' dan 'Value'.
+  * Mengubah format Date menjadi MM/DD/YYYY menggunakan Text to Columns.
+  * Melakukan recalculation pada kolom COGS berdasarkan Unit Price × Quantity
+  * Menghitung kembali Tax 5% berdasarkan COGS × 5% karena ditemukan ketidaksesuaian pada sebagian nilai.
+  * Menghitung kembali Sales/Total berdasarkan COGS + Tax 5%.
+  * Menghitung kembali Gross Income berdasarkan Sales − COGS.
+  * Menghitung kembali Gross Margin % berdasarkan Gross Income / Sales.
+    
+### 4.2 Audit Column is_clean
+Melakukan data validation menggunakan pengecekan tipe data (ISNUMBER) untuk memastikan kolom numerik dan tanggal telah berhasil dikonversi.
