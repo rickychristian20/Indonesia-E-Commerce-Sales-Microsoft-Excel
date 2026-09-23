@@ -1,4 +1,5 @@
 # Supermarket Sales Dataset | Microsoft-Excel
+![sales](Images/dataset-cover.jpg)
   > Project analisis end-to-end menggunakan Excel untuk menganalisis pola penjualan berdasarkan produk, segmen pelanggan, lokasi, metode pembayaran, dan periode waktu guna mengidentifikasi perbedaan performa penjualan serta area yang perlu diperhatikan dalam pengambilan keputusan bisnis.
 
 Table Of Contents
