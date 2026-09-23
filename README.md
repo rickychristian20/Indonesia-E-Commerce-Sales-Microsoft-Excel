@@ -26,7 +26,7 @@ Menganalisis pola penjualan berdasarkan produk, pelanggan, lokasi, metode pembay
 ### 1.4 Business Questions
 * Apakah terdapat perbedaan pola penjualan berdasarkan segmen pelanggan, produk, lokasi, dan metode pembayaran?
 * Area mana yang perlu dipertahankan dan area yang memiliki potensi peningkatan?
-* Apa penyebab perubahan sales antar periode?
+* Bagaimana pola perubahan sales antar periode dan dimensi bisnis apa yang berkontribusi terhadap perbedaannya?
 * Seberapa efektif membership dan pola pembelian pelanggan?
 
 ---
