@@ -65,14 +65,20 @@ Melakukan data validation menggunakan pengecekan tipe data (ISNUMBER) untuk mema
 ### 5.1 Sales Performance Analysis
 Analisis dilakukan berdasarkan beberapa dimensi bisnis yang tersedia dalam dataset, yaitu *product category*, *branch*, *customer type*, *gender*, *payment method*, dan *month*.
 
-| Dimension | Metric | Purpose |
+## 5.1 Sales Performance Analysis
+
+Analisis dilakukan berdasarkan beberapa dimensi dan metrik bisnis yang tersedia dalam dataset untuk mengidentifikasi pola serta performa penjualan.
+
+| Dimension | Metric yang dianalisis | Tujuan |
 | :--- | :--- | :--- |
-| **Product Category** | Total Sales, Quantity, Rating | Mengidentifikasi kategori dengan kontribusi dan performa berbeda |
-| **Branch** | Total Sales, Quantity, Rating | Membandingkan performa antar cabang |
-| **Customer Type** | Total Sales, Quantity, Rating | Membandingkan kontribusi Member vs Normal |
-| **Gender** | Total Sales, Quantity, Rating | Memahami pola pembelian berdasarkan gender |
-| **Payment Method** | Total Sales, Quantity | Mengidentifikasi preferensi metode pembayaran |
-| **Month** | Total Sales, Quantity, Rating | Menganalisis tren dan perubahan performa berdasarkan waktu |
+| **Product Category** | Total Sales, Sales Contribution %, Quantity, Gross Income | Menilai kontribusi dan performa tiap kategori produk |
+| **Branch / City** | Total Sales, Average Transaction Value, Quantity, Rating | Membandingkan performa dan *customer experience* antar lokasi |
+| **Customer Type** | Total Sales, Sales Contribution %, Avg. Transaction Value, Quantity | Memahami kontribusi dan nilai transaksi Member vs Normal |
+| **Gender** | Total Sales, Quantity, Avg. Transaction Value | Mengidentifikasi pola pembelian berdasarkan gender |
+| **Payment Method** | Transaction Count, Total Sales, Sales Contribution % | Memahami preferensi pembayaran dan kontribusinya terhadap transaksi |
+| **Month** | Total Sales, MoM Growth %, Quantity, Average Transaction Value | Mengidentifikasi perubahan dan fluktuasi performa penjualan |
+| **Product Category × Customer Type** | Sales, Quantity, Avg. Transaction Value | Menemukan kombinasi produk dan segmen pelanggan yang potensial |
+| **Product Category × Branch** | Sales, Sales Contribution %, Quantity | Mengidentifikasi kategori yang kuat/lemah di setiap cabang |
 
 ---
 
