@@ -1,5 +1,5 @@
 # Supermarket Sales Dataset | Microsoft-Excel
-  "Proyek analitik end-to-end menggunakan Excel untuk menganalisis pola penjualan berdasarkan produk, segmen pelanggan, lokasi, metode pembayaran, dan periode waktu guna mengidentifikasi perbedaan performa penjualan serta area yang perlu diperhatikan dalam pengambilan keputusan bisnis."
+  "Project analitis end-to-end menggunakan Excel untuk menganalisis pola penjualan berdasarkan produk, segmen pelanggan, lokasi, metode pembayaran, dan periode waktu guna mengidentifikasi perbedaan performa penjualan serta area yang perlu diperhatikan dalam pengambilan keputusan bisnis."
 
 Table Of Contents
 1. Business Understanding
@@ -41,3 +41,14 @@ Menganalisis pola penjualan berdasarkan produk, pelanggan, lokasi, metode pembay
 | **Coverage** | 3 branches, 3 cities, 6 product categories |
 | **Key Dimensions** | Customer, Product, Location, Payment & Time |
 | **Key Metrics** | Sales, Quantity, Gross Income & Rating |
+
+## 3. Tools
+
+## 3. Environment & Tech Stack
+
+```mermaid
+graph LR
+    A[1. RAW DATA<br><b>Kaggle Dataset</b><br><i>Supermarket Sales Data</i>] --> B[2. DATA CLEANING<br><b>Microsoft Excel</b><br><i>Power Query & Data Prep</i>]
+    B --> C[3. DATA ANALYSIS<br><b>Microsoft Excel</b><br><i>Pivot Tables & Formulas</i>]
+    C --> D[4. DASHBOARD<br><b>Microsoft Excel</b><br><i>Interactive Charts & Slicers</i>]
+    D --> E[5. INSIGHT & ACTION<br><b>Final Output</b><br><i>Strategic Recommendations</i>]
