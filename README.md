@@ -100,30 +100,44 @@ Metrik utama yang digunakan dalam analisis ini meliputi:
 
 ## 6. Key Findings
 
-### 1. Sales Performance by Branch
+### 1. Product Category Performance
 ![Images](Images/Product-kategori.png)
-* **Food and Beverages mencatatkan *sales* tertinggi sebesar $ 56,14 K, sedangkan **Health and beauty** mencatat *sales* terendah sebesar $ 49,19 K.*
+* **Food and Beverages mencatatkan *sales* tertinggi sebesar $ 56,14 K dengan jumlah quantity sebesar 952 Pcs, sedangkan **Health and beauty** mencatat *sales* terendah sebesar $ 49,19 K dengan jumlah quantity 854 Pcs.*
+> **Insight:** F&B merupakan produk utama yang mendorong penjualan
 
-### 2. Product Category Performance
-* **Food And Beverages Menjadi Product Paling Banyak Terjual sebesar 952 Pcs dengan total Sales sebesar $ 56,14 K, sedangkan Health and beauty menjadi product paling sedikit terjual sebesar 854 Pcs dengan total sales sebesar $ 49,19 K.*
- > **Insight:** Terdapat perbedaan kontribusi antar kategori produk yang dapat dijadikan dasar dalam mengevaluasi strategi *product mix* dan alokasi stok.
+### 2. Performance by City
+![Images](Images/city.png)
+* **Naypyitaw menjadi kota dengan penjualan terbanyak sebesar $ 110,57 K dengan persentase kontribusi sales sebesar 34,24 % dan mempunyai rating tertinggi sebesar 7,1 dibanding kota Yangon dan Mandalay yang mempunyai sales hampir sama besar.*
+ > **Insight:** Kota Naypyitaw menjadi kota dengan kontribusi penjualan terbesar dibanding kota Yangon dan Mandalay.
 
 ### 3. Customer Segment
-* **Member** menghasilkan *sales* sebesar $ 189,69 K (*volume* 3,181 unit), jauh lebih tinggi dibandingkan **Normal Customer** sebesar $ 133,27 K (*volume* 2,329 unit).
- > **Insight:** Segmen *Member* merupakan pendorong utama kontribusi penjualan bisnis.
+![Images](Images/customer.png)
+* **Member menghasilkan *sales* sebesar $ 189,69 K (*volume* 3,181 unit), jauh lebih tinggi dibandingkan **Normal Customer** sebesar $ 133,27 K (*volume* 2,329 unit).*
+ > **Insight:** Segmen *Member* merupakan pendorong utama kontribusi penjualan bisnis dengan rata - rata $ 335,74 Per Transaksi
+
+![Images](Images/gender.png)
+* **Female menghasilkan *sales* sebesar $ 194,67 K (*volume* 3,288 unit), jauh lebih tinggi dibandingkan **Male** sebesar $ 128,29 K (*volume* 2,222 unit).*
+ > **Insight:** Gender *Female* merupakan pendorong utama kontribusi penjualan bisnis.
 
 ### 4. Payment Behavior
-* **Cash** menjadi metode pembayaran utama dengan *sales* tertinggi sebesar **$112,206.57**, diikuti oleh **Credit Card** sebesar **$100,767.07**.
+![Images](Images/payment.png)
+* **Cash menjadi metode pembayaran utama dengan *sales* tertinggi sebesar **$112,206.57** dengan jumlah transaksi sebesar 34 % sedikit lebih sedikit dibanding dengan E - Wallet yang 35 %, diikuti oleh **Credit Card** sebesar **$100,767.07** dengan jumlah transaksi sebesar 31 %.*
  > **Insight:** Transaksi tunai (*Cash*) masih menjadi preferensi dominan pelanggan selama periode pengamatan.
 
 ### 5. Sales Trend (Monthly Performance)
-* Penjualan tertinggi terjadi pada **Januari ($116,291.87)**, kemudian mengalami penurunan pada **Februari ($97,219.37)**, sebelum akhirnya bangkit kembali pada **Maret ($109,455.51)**.
- > **Insight:** Performa penjualan menunjukkan pola fluktuasi periodik, bukan tren penurunan yang konsisten secara jangka panjang.
+![Images](Images/month.png)
+* **Penjualan tertinggi terjadi pada Januari ($116,291.87), kemudian mengalami penurunan sebesar 16,4 % pada Februari ($97,219.37), sebelum akhirnya bangkit kembali pada Maret ($109,455.51).*
+ > **Insight:** Performa penjualan menunjukkan pola fluktuasi periodik, bukan tren penurunan yang konsisten.
 
-### 6. Customer Experience (Rating)
-* Rata-rata kepuasan pelanggan (*rating*) berada pada angka **7.0 / 10.0**. 
-* **Giza** memiliki *rating* tertinggi (**7.1**), sedangkan **Cairo** mencatatkan *rating* terendah (**6.8**).
- > **Insight:** Variasi *rating* antar cabang relatif tipis, sehingga evaluasi pengalaman pelanggan perlu dipadukan dengan metrik volume penjualan untuk analisis lebih mendalam.
+### 6. Sales Trend (Hours Performance)
+![Images](Images/hour.png)
+* *Penjualan tertinggi terjadi pada Pukul 13.00 - 13.59  ($34,72 K) dan Pukul 19.00 - 19.59  ($39,70 K).* 
+ > **Insight:** Performa penjualan menunjukkan pola sales by hours mengalami fluktuasi periodik.
+
+### 7. Customer Type Per Month
+![Images](Images/month-tr.png)
+* *Penjualan pada bulan februari terjadi penurunan oleh customer normal sebesar 24 % dibanding bulan januari namun meningkat sebesar 16 % pada bulan Maret* 
+ > **Insight:** Faktor penurunan sales paling besar disebabkan rendahnya pembelian dari customer normal
   
 ## 7. Dashboard
 Project ini dirancang sebagai analisis end-to-end yang membentuk satu alur cerita, mulai dari identifikasi business problem, eksplorasi data, penemuan insight, hingga penyusunan dasar rekomendasi bisnis.
@@ -133,12 +147,12 @@ Project ini dirancang sebagai analisis end-to-end yang membentuk satu alur cerit
 ## 8. Insight
 1. Penjualan relatif merata antar kota (32,9-34,2%), produk (15,2-17,4%), dan metode pembayaran (31,2-34,7%), sehingga tidak ada satu dimensi yang terlalu dominan. Perbedaan paling jelas ada pada gender: Female menyumbang 60,3% total sales dan Male 39,7%. Dari sisi pembayaran, Cash memiliki sales tertinggi ($112,21K), sedangkan jumlah transaksi E-wallet dan Cash hampir sama (345 vs 344)
 2.Naypyitaw dipertahankan karena sales ($110,57K) dan rating (7,1) tertinggi di antara kota lain. Yangon dan Mandalay memiliki potensi peningkatan. Yangon mencatat unit terjual tertinggi (1.859 pcs) tetapi total sales lebih rendah dan sales-nya paling fluktuatif antar bulan. Mandalay memiliki rating terendah (6,8) dibanding kota lainnya.
-3. Sales turun 16,4% dari Januari ke Februari ($116,29K → $97,22K), lalu pulih 12,6% di Maret tetapi masih 5,9% di bawah Januari. Penurunan Februari terutama didorong oleh jumlah transaksi yang turun (352 → 303), dengan kontribusi terbesar dari pelanggan Normal (64% dari total penurunan). Dari sisi kota, Yangon dan Naypyitaw menyumbang sekitar 85% penurunan tersebut. Dari sisi produk, penurunan terbesar terjadi pada kategori Sports and travel & Home and lifestyle.
-4. Member cenderung membeli dengan quantity (5,63 vs 5,35 pcs per transaksi) dan nominal (rata-rata $336 vs $306 per transaksi) lebih besar daripada pelanggan Normal, meskipun selisih nominalnya bervariasi antar bulan. Dari sisi waktu, pembelian memuncak pada pukul 19:00 (12,3% sales), disusul pukul 13:00 dan 15:00. Karena dataset tidak memiliki customer ID, temuan ini menunjukkan korelasi dan belum membuktikan bahwa membership yang menyebabkan belanja lebih besar.
+3. Sales turun 16,4% dari Januari ke Februari ($116,29K → $97,22K), lalu pulih 12,6% di Maret tetapi masih 5,9% di bawah Januari. Penurunan Februari terutama didorong oleh jumlah transaksi dari customer yang turun (1.965 → 1.654), dengan kontribusi terbesar dari pelanggan Normal (24 % dibanding januari).
+4. Member cenderung membeli dengan nominal (rata-rata $336 vs $306 per transaksi) lebih besar daripada pelanggan Normal, meskipun selisih nominalnya bervariasi antar bulan. Dari sisi waktu, pembelian memuncak pada pukul 19:00 (12,29 % sales), disusul pukul 13:00 dan 15:00. Karena dataset tidak memiliki customer ID, temuan ini menunjukkan korelasi dan belum membuktikan bahwa membership yang menyebabkan belanja lebih besar.
 
 ## 9. Recommendations
 1. Fokus pada segmen pelanggan karena perbedaannya paling nyata. Naikkan nilai belanja Male (sekitar $299 vs $341 Female) lewat promo bundling.
-2. Jadikan Naypyitaw acuan untuk kota lain. Dorong upselling di Yangon agar nilai per unit naik, dan evaluasi layanan di Mandalay untuk memperbaiki rating (6,8) serta AOV-nya.
+2. Jadikan Naypyitaw acuan untuk kota lain. Dorong upselling di Yangon agar nilai per unit naik, dan evaluasi layanan di Mandalay untuk memperbaiki rating (6,8) nya.
 3. Buat promo awal Februari yang menyasar pelanggan Normal, dan pantau jumlah transaksi mingguan sebagai indikator dini.
 4. Dorong konversi Normal menjadi Member di kasir, dan siapkan staf serta stok lebih banyak pada jam puncak 19:00.
 
