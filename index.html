@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Supermarket Sales Analysis using Microsoft Excel — business-focused sales, customer, product and operational analysis.">
+<title>Supermarket Sales Analysis | Ricky Christian</title>
+<style>
+:root{--bg:#f7f8fa;--card:#fff;--text:#172033;--muted:#667085;--accent:#f28c28;--accent2:#ffb15c;--line:#e7e9ee;--dark:#121826}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,Segoe UI,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.6}
+a{color:inherit;text-decoration:none}.container{width:min(1120px,92%);margin:auto}
+nav{position:sticky;top:0;z-index:10;background:rgba(255,255,255,.92);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+.nav{height:64px;display:flex;align-items:center;justify-content:space-between}.brand{font-weight:800}.brand span{color:var(--accent)}.links{display:flex;gap:22px;font-size:14px;color:var(--muted)}.links a:hover{color:var(--accent)}
+.hero{padding:86px 0 70px;background:linear-gradient(135deg,#fff 0%,#fff8ef 100%)}.eyebrow{display:inline-block;padding:7px 12px;border-radius:999px;background:#fff0df;color:#b86108;font-size:13px;font-weight:700}.hero h1{font-size:clamp(38px,6vw,68px);line-height:1.03;margin:18px 0 18px;letter-spacing:-2px;max-width:850px}.hero h1 span{color:var(--accent)}.hero p{max-width:760px;color:var(--muted);font-size:18px}.buttons{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}.btn{padding:12px 18px;border-radius:10px;font-weight:700;border:1px solid var(--dark);background:var(--dark);color:#fff}.btn.alt{background:#fff;color:var(--dark);border-color:var(--line)}
+section{padding:72px 0}.section-head{margin-bottom:28px}.section-head h2{font-size:32px;margin:0 0 8px}.section-head p{margin:0;color:var(--muted)}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:24px;box-shadow:0 5px 20px rgba(16,24,40,.04)}.card h3{margin:0 0 10px}.card p{margin:0;color:var(--muted)}.problem{display:grid;grid-template-columns:1.2fr .8fr;gap:20px}.problem .big{font-size:23px;font-weight:700;line-height:1.4}.metric-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:12px}.metric{background:var(--dark);color:#fff;border-radius:14px;padding:20px}.metric strong{display:block;font-size:24px}.metric small{color:#b9c0cc}.finding{display:grid;grid-template-columns:1fr 1fr;gap:22px;align-items:center}.finding img,.dashboard img{width:100%;border-radius:14px;border:1px solid var(--line);background:#fff}.finding-text{padding:10px}.finding-text .tag{color:var(--accent);font-weight:800;font-size:13px;text-transform:uppercase}.finding-text h3{font-size:27px;margin:8px 0}.finding-text p{color:var(--muted)}
+.recs{counter-reset:item}.rec{display:flex;gap:16px;margin:16px 0}.rec:before{counter-increment:item;content:counter(item);flex:0 0 34px;height:34px;border-radius:50%;display:grid;place-items:center;background:#fff0df;color:#b86108;font-weight:800}
+footer{background:var(--dark);color:#fff;padding:42px 0}footer p{color:#aeb6c4}.footer{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
+@media(max-width:800px){.links{display:none}.grid,.problem,.finding{grid-template-columns:1fr}.metric-grid{grid-template-columns:repeat(2,1fr)}.hero{padding-top:60px}.hero h1{letter-spacing:-1px}.finding{gap:10px}}
+</style>
+</head>
+<body>
+<nav><div class="container nav"><a class="brand" href="#">Ricky<span>.</span></a><div class="links"><a href="#overview">Overview</a><a href="#findings">Findings</a><a href="#dashboard">Dashboard</a><a href="#recommendations">Recommendations</a><a href="https://github.com/rickychristian20/Supermarket-Sales-Analysis-Microsoft-Excel">GitHub ↗</a></div></div></nav>
+
+<header class="hero"><div class="container">
+<div class="eyebrow">DATA ANALYTICS PROJECT • MICROSOFT EXCEL</div>
+<h1>Supermarket Sales <span>Analysis</span></h1>
+<p>Analisis end-to-end untuk memahami perubahan performa penjualan, customer segment, product category, lokasi, payment behavior, dan pola waktu — dengan fokus pada pertanyaan bisnis: <strong>mengapa sales turun pada Februari?</strong></p>
+<div class="buttons"><a class="btn" href="#dashboard">View Dashboard</a><a class="btn alt" href="https://github.com/rickychristian20/Supermarket-Sales-Analysis-Microsoft-Excel">View Repository ↗</a></div>
+</div></header>
+
+<section id="overview"><div class="container">
+<div class="section-head"><h2>Business Overview</h2><p>From raw transaction data to business recommendations.</p></div>
+<div class="problem">
+<div class="card"><div class="big">Manajemen membutuhkan gambaran yang lebih jelas mengenai perubahan sales antarperiode dan dimensi bisnis yang berkontribusi terhadap perubahan tersebut.</div><p style="margin-top:14px">Analisis digunakan untuk mengidentifikasi kapan perubahan terjadi, dimensi yang berkontribusi, serta pola pelanggan dan waktu yang perlu diperhatikan.</p></div>
+<div class="card"><h3>Business Questions</h3><p>01 — Bagaimana performa penjualan berubah dari waktu ke waktu?</p><p>02 — Dimensi bisnis apa yang berkontribusi terhadap perubahan sales?</p><p>03 — Pola pelanggan dan waktu apa yang perlu diperhatikan?</p></div>
+</div>
+</div></section>
+
+<section><div class="container">
+<div class="section-head"><h2>Key Metrics</h2><p>January–March 2019 • 1,000 transactions</p></div>
+<div class="metric-grid">
+<div class="metric"><small>Total Sales</small><strong>$322.97K</strong></div>
+<div class="metric"><small>Total Quantity</small><strong>5,510</strong></div>
+<div class="metric"><small>Gross Income</small><strong>$15.38K</strong></div>
+<div class="metric"><small>Avg. Rating</small><strong>6.97</strong></div>
+<div class="metric"><small>Branches</small><strong>3</strong></div>
+</div></div></section>
+
+<section id="findings"><div class="container">
+<div class="section-head"><h2>Key Findings</h2><p>Analysis is structured around the business story, not only the charts.</p></div>
+
+<div class="finding"><img src="Images/month.png" alt="Monthly sales analysis"><div class="finding-text"><div class="tag">01 • Monthly Trend</div><h3>February sales declined 16.4%</h3><p>Sales moved from <strong>$116.29K</strong> in January to <strong>$97.22K</strong> in February, then recovered to <strong>$109.46K</strong> in March. The decline was therefore a period-specific drop rather than a continuous decline.</p></div></div>
+
+<div class="finding"><div class="finding-text"><div class="tag">02 • Diagnostic Analysis</div><h3>Transaction volume is an important signal</h3><p>February transactions fell from 1,965 to 1,654. The largest change came from Normal customers, whose sales were 24% lower than January. This pattern is treated as a contributing signal, not proof of causation.</p></div><img src="Images/month-tr.png" alt="Customer type monthly analysis"></div>
+
+<div class="finding"><img src="Images/customer.png" alt="Customer segment analysis"><div class="finding-text"><div class="tag">03 • Customer Segment</div><h3>Members contributed more sales</h3><p>Member sales reached <strong>$189.69K</strong>, compared with <strong>$133.27K</strong> for Normal customers. Average transaction value was also higher for Members, around $336 versus $306.</p></div></div>
+
+<div class="finding"><div class="finding-text"><div class="tag">04 • Location</div><h3>Naypyitaw as a performance benchmark</h3><p>Naypyitaw recorded the highest sales at <strong>$110.57K</strong>. Yangon and Mandalay can be evaluated further based on their sales, quantity, rating, and monthly patterns rather than assuming a single cause.</p></div><img src="Images/city.png" alt="City performance analysis"></div>
+</div></section>
+
+<section id="dashboard"><div class="container dashboard">
+<div class="section-head"><h2>Interactive-style Dashboard View</h2><p>The dashboard brings the main KPIs, trends, diagnostics and business dimensions into one view.</p></div>
+<img src="Dashboard/dashboard-supermarket.png" alt="Supermarket Sales Analysis dashboard">
+</div></section>
+
+<section id="recommendations"><div class="container">
+<div class="section-head"><h2>Business Recommendations</h2><p>Recommendations are framed as actions to test and monitor.</p></div>
+<div class="card recs">
+<div class="rec"><div><strong>Test targeted promotion for Normal customers.</strong><br><span style="color:var(--muted)">Run an early-February promotion and measure changes in transaction count and sales.</span></div></div>
+<div class="rec"><div><strong>Use Naypyitaw as a performance benchmark.</strong><br><span style="color:var(--muted)">Compare Yangon and Mandalay against the benchmark and investigate dimensions with meaningful gaps.</span></div></div>
+<div class="rec"><div><strong>Evaluate the 19:00 peak period.</strong><br><span style="color:var(--muted)">Use transaction patterns as a reference for staffing and operational readiness during busy hours.</span></div></div>
+</div>
+</div></section>
+
+<section><div class="container"><div class="grid">
+<div class="card"><h3>Tools</h3><p>Microsoft Excel • PivotTable • Data Cleaning • Dashboarding • Business Analysis</p></div>
+<div class="card"><h3>Data Scope</h3><p>1,000 transactions • 3 branches • 3 cities • 6 product categories • Jan–Mar 2019</p></div>
+<div class="card"><h3>Limitations</h3><p>No unique Customer ID, limited time period, and no promotion, inventory, or operational-cost data. Findings are descriptive/diagnostic, not causal.</p></div>
+</div></div></section>
+
+<footer><div class="container footer"><div><strong>Ricky Christian Simatupang</strong><p>Data Analyst Portfolio Project</p></div><div><a href="https://github.com/rickychristian20/Supermarket-Sales-Analysis-Microsoft-Excel">GitHub Repository ↗</a></div></div></footer>
+</body>
+</html>
