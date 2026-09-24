@@ -112,7 +112,7 @@ Metrik utama yang digunakan dalam analisis ini meliputi:
  Perbedaannya relatif kecil (stabil), sehingga secara keseluruhan performa penjualan antar cabang cukup merata.
 
 ### 2. Product Category Performance
-* **-----------**.
+* **Food And Beverages Menjadi Product Paling Banyak Terjual**.
  > **Insight:** Terdapat perbedaan kontribusi antar kategori produk yang dapat dijadikan dasar dalam mengevaluasi strategi *product mix* dan alokasi stok.
 
 ### 3. Customer Segment
@@ -134,6 +134,8 @@ Metrik utama yang digunakan dalam analisis ini meliputi:
   
 ## 7. Dashboard
 Project ini dirancang sebagai analisis end-to-end yang membentuk satu alur cerita, mulai dari identifikasi business problem, eksplorasi data, penemuan insight, hingga penyusunan dasar rekomendasi bisnis.
+
+![Dashboard](Dashboard/dashboard-super.png)
 
 ## 8. Insight
 
