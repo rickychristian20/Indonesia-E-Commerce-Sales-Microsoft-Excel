@@ -152,8 +152,8 @@ Project ini dirancang sebagai analisis end-to-end yang membentuk satu alur cerit
 
 ## 9. Recommendations
 1. Evaluasi potensi peningkatan nilai transaksi pelanggan Male melalui program promosi atau bundling yang dapat diuji. Keberhasilannya perlu diukur berdasarkan perubahan nilai transaksi dan jumlah transaksi.
-2. Jadikan Naypyitaw acuan untuk kota lain. Gunakan Naypyitaw sebagai referensi performa, sementara Yangon dapat dievaluasi untuk meningkatkan nilai penjualan per unit. Untuk Mandalay, lakukan evaluasi lebih lanjut terhadap faktor yang berkaitan dengan rating sebelum menentukan tindakan perbaikan.
-3. Buat promo awal Februari yang menyasar pelanggan Normal, dan pantau jumlah transaksi mingguan sebagai indikator dini.
+2. Naypyitaw dapat digunakan sebagai acuan performa, sementara Yangon dan Mandalay perlu dievaluasi lebih lanjut berdasarkan dimensi yang menunjukkan perbedaan performa.
+3. Uji coba promo pada awal Februari yang menyasar pelanggan Normal, kemudian ukur perubahan jumlah transaksi dan sales untuk mengevaluasi efektivitasnya.
 4. Gunakan pola transaksi pukul 19:00 sebagai referensi untuk evaluasi kebutuhan staffing dan kesiapan operasional pada jam sibuk.
 
 ## 10. Limitations & Methodology Notes
