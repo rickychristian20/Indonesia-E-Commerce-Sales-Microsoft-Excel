@@ -101,12 +101,11 @@ Metrik utama yang digunakan dalam analisis ini meliputi:
 ## 6. Key Findings
 
 ### 1. Sales Performance by Branch
-* **Giza** mencatatkan *sales* tertinggi sebesar $ 110,57 K, sedangkan **Cairo** mencatat *sales* terendah sebesar $ 106,2 K. 
- Perbedaannya relatif kecil (stabil), sehingga secara keseluruhan performa penjualan antar cabang cukup merata.
+![Images](Images/Product-kategori.png)
+* **Food and Beverages mencatatkan *sales* tertinggi sebesar $ 56,14 K, sedangkan **Health and beauty** mencatat *sales* terendah sebesar $ 49,19 K.*
 
 ### 2. Product Category Performance
-* **Food And Beverages Menjadi Product Paling Banyak Terjual sebesar 952 Pcs dengan total Sales sebesar $ 56,14 K, sedangkan Health and beauty menjadi product paling sedikit terjual sebesar 854 Pcs dengan total sales sebesar $ 49,19 K.
-**.
+* **Food And Beverages Menjadi Product Paling Banyak Terjual sebesar 952 Pcs dengan total Sales sebesar $ 56,14 K, sedangkan Health and beauty menjadi product paling sedikit terjual sebesar 854 Pcs dengan total sales sebesar $ 49,19 K.*
  > **Insight:** Terdapat perbedaan kontribusi antar kategori produk yang dapat dijadikan dasar dalam mengevaluasi strategi *product mix* dan alokasi stok.
 
 ### 3. Customer Segment
