@@ -137,7 +137,7 @@ Metrik utama yang digunakan dalam analisis ini meliputi:
 ### 7. Customer Type Per Month
 ![Images](Images/month-tr.png)
 * *Penjualan pada bulan februari terjadi penurunan oleh customer normal sebesar 24 % dibanding bulan januari namun meningkat sebesar 16 % pada bulan Maret* 
- > **Insight:** Faktor penurunan sales paling besar disebabkan rendahnya pembelian dari customer normal
+ > **Insight:** Penurunan sales Februari beriringan dengan penurunan jumlah transaksi, terutama pada Customer Normal, yang memberikan kontribusi besar terhadap penurunan sales.l
   
 ## 7. Dashboard
 Project ini dirancang sebagai analisis end-to-end yang membentuk satu alur cerita, mulai dari identifikasi business problem, eksplorasi data, penemuan insight, hingga penyusunan dasar rekomendasi bisnis.
@@ -151,7 +151,7 @@ Project ini dirancang sebagai analisis end-to-end yang membentuk satu alur cerit
 4. Member cenderung membeli dengan nominal (rata-rata $336 vs $306 per transaksi) lebih besar daripada pelanggan Normal, meskipun selisih nominalnya bervariasi antar bulan. Dari sisi waktu, pembelian memuncak pada pukul 19:00 (12,29 % sales), disusul pukul 13:00 dan 15:00. Karena dataset tidak memiliki customer ID, temuan ini menunjukkan korelasi dan belum membuktikan bahwa membership yang menyebabkan belanja lebih besar.
 
 ## 9. Recommendations
-1. Fokus pada segmen pelanggan karena perbedaannya paling nyata. Naikkan nilai belanja Male (sekitar $299 vs $341 Female) lewat promo bundling.
+1. Fokus pada segmen pelanggan karena perbedaannya paling nyata. Naikkan nilai belanja Male (sekitar $299 vs $341 Female) lewat Promo kemudian diuji sebagai salah satu inisiatif dan hasilnya perlu diukur.
 2. Jadikan Naypyitaw acuan untuk kota lain. Dorong upselling di Yangon agar nilai per unit naik, dan evaluasi layanan di Mandalay untuk memperbaiki rating (6,8) nya.
 3. Buat promo awal Februari yang menyasar pelanggan Normal, dan pantau jumlah transaksi mingguan sebagai indikator dini.
 4. Dorong konversi Normal menjadi Member di kasir, dan siapkan staf serta stok lebih banyak pada jam puncak 19:00.
