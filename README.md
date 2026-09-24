@@ -137,7 +137,7 @@ Metrik utama yang digunakan dalam analisis ini meliputi:
 ### 7. Customer Type Per Month
 ![Images](Images/month-tr.png)
 * *Penjualan pada bulan februari terjadi penurunan oleh customer normal sebesar 24 % dibanding bulan januari namun meningkat sebesar 16 % pada bulan Maret* 
- > **Insight:** Penurunan sales Februari beriringan dengan penurunan jumlah transaksi, terutama pada Customer Normal, yang memberikan kontribusi besar terhadap penurunan sales.l
+ > **Insight:** Penurunan sales Februari beriringan dengan penurunan jumlah transaksi, terutama pada Customer Normal, yang memberikan kontribusi besar terhadap penurunan sales.
   
 ## 7. Dashboard
 Project ini dirancang sebagai analisis end-to-end yang membentuk satu alur cerita, mulai dari identifikasi business problem, eksplorasi data, penemuan insight, hingga penyusunan dasar rekomendasi bisnis.
@@ -151,12 +151,12 @@ Project ini dirancang sebagai analisis end-to-end yang membentuk satu alur cerit
 4. Member cenderung membeli dengan nominal (rata-rata $336 vs $306 per transaksi) lebih besar daripada pelanggan Normal, meskipun selisih nominalnya bervariasi antar bulan. Dari sisi waktu, pembelian memuncak pada pukul 19:00 (12,29 % sales), disusul pukul 13:00 dan 15:00. Karena dataset tidak memiliki customer ID, temuan ini menunjukkan korelasi dan belum membuktikan bahwa membership yang menyebabkan belanja lebih besar.
 
 ## 9. Recommendations
-1. Fokus pada segmen pelanggan karena perbedaannya paling nyata. Naikkan nilai belanja Male (sekitar $299 vs $341 Female) lewat Promo kemudian diuji sebagai salah satu inisiatif dan hasilnya perlu diukur.
-2. Jadikan Naypyitaw acuan untuk kota lain. Dorong upselling di Yangon agar nilai per unit naik, dan evaluasi layanan di Mandalay untuk memperbaiki rating (6,8) nya.
+1. Evaluasi potensi peningkatan nilai transaksi pelanggan Male melalui program promosi atau bundling yang dapat diuji. Keberhasilannya perlu diukur berdasarkan perubahan nilai transaksi dan jumlah transaksi.
+2. Jadikan Naypyitaw acuan untuk kota lain. Gunakan Naypyitaw sebagai referensi performa, sementara Yangon dapat dievaluasi untuk meningkatkan nilai penjualan per unit. Untuk Mandalay, lakukan evaluasi lebih lanjut terhadap faktor yang berkaitan dengan rating sebelum menentukan tindakan perbaikan.
 3. Buat promo awal Februari yang menyasar pelanggan Normal, dan pantau jumlah transaksi mingguan sebagai indikator dini.
-4. Dorong konversi Normal menjadi Member di kasir, dan siapkan staf serta stok lebih banyak pada jam puncak 19:00.
+4. Gunakan pola transaksi pukul 19:00 sebagai referensi untuk evaluasi kebutuhan staffing dan kesiapan operasional pada jam sibuk.
 
-## 7. Limitations & Methodology Notes
+## 10. Limitations & Methodology Notes
 
 > **Catatan Metodologi & Keterbatasan Data:**
 > Beberapa batasan dan konteks metodologi yang perlu diperhatikan dalam menginterpretasikan hasil analisis proyek ini.
