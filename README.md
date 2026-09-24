@@ -98,16 +98,6 @@ Metrik utama yang digunakan dalam analisis ini meliputi:
 * **Average Customer Rating:** Rata-rata skor kepuasan pelanggan (skala 1–10).
 * **Sales Contribution %:** Persentase kontribusi penjualan dari setiap segmen/kategori terhadap total pendapatan.
 
-### 5.4 Table analisa Final
-
-| Analytical Table | Digunakan untuk |
-| :--- | :--- |
-| **sales_performance_summary** | Overall business performance |
-| **product_category_summary** | Product performance |
-| **branch_performance_summary** | Branch comparison |
-| **customer_segment_summary** | Member vs Normal analysis |
-| **monthly_sales_summary** | Sales trend analysis |
-
 ## 6. Key Findings
 
 ### 1. Sales Performance by Branch
