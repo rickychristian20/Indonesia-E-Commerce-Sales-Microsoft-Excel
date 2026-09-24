@@ -169,6 +169,3 @@ Project ini dirancang sebagai analisis end-to-end yang membentuk satu alur cerit
 * **Penggunaan *Customer Rating*:** Indikator *Customer Rating* digunakan hanya sebagai **indikator pendukung** (*supporting indicator*), bukan sebagai pemicu utama (*causal driver*) dari penjualan.
 
 Dataset  : https://www.kaggle.com/datasets/faresashraf1001/supermarket-sales
-Microsoft Excel  :
-EDA      : 
-Dashboard  :
