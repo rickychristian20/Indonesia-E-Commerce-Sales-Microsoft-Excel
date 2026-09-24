@@ -19,11 +19,15 @@ Table Of Contents
 Bisnis retail supermarket dengan beberapa cabang dan berbagai kategori produk. Perusahaan melayani pelanggan Member dan Normal melalui metode pembayaran Cash, Credit Card, dan Ewallet. Data transaksi digunakan untuk menganalisis performa penjualan berdasarkan produk, pelanggan, lokasi, pembayaran, dan periode waktu.
 
 ### 1.2 Business Problem
-Perusahaan perlu memahami pola dan variasi performa penjualan berdasarkan produk, pelanggan, lokasi, metode pembayaran, dan waktu untuk mengidentifikasi segmen yang berkontribusi besar serta area yang perlu diperhatikan.
+Manajemen supermarket belum memiliki gambaran yang jelas tentang di mana performa penjualan kuat dan di mana masih lemah. Penjualan berfluktuasi antar periode tanpa diketahui dimensi bisnis apa yang mendorongnya, dan belum diketahui apakah program membership berkaitan dengan nilai belanja yang lebih besar. Tanpa pemahaman ini, keputusan untuk mempertahankan atau meningkatkan area bisnis (produk, lokasi, segmen pelanggan, metode pembayaran) berisiko tidak tepat sasaran.
 
 ### 1.3 Project Objectives
-Menganalisis pola penjualan berdasarkan produk, pelanggan, lokasi, metode pembayaran, dan waktu untuk mengidentifikasi kontribusi setiap segmen serta menghasilkan insight yang mendukung pengambilan keputusan bisnis.
-
+  * Membandingkan pola penjualan berdasarkan segmen pelanggan, produk, lokasi, dan metode pembayaran.
+  * Mengidentifikasi area yang perlu dipertahankan dan area yang berpotensi ditingkatkan.
+  * Menganalisis perubahan sales antar bulan beserta dimensi bisnis yang berkontribusi.
+  * Mengevaluasi pola pembelian dan efektivitas membership.
+  * Menyusun rekomendasi bisnis berbasis temuan.
+    
 ### 1.4 Business Questions
 * Apakah terdapat perbedaan pola penjualan berdasarkan segmen pelanggan, produk, lokasi, dan metode pembayaran?
 * Area mana yang perlu dipertahankan dan area yang memiliki potensi peningkatan?
@@ -66,23 +70,22 @@ Melakukan data validation menggunakan pengecekan tipe data (ISNUMBER) untuk mema
 ## 5. Sales Performance Analysis & Metrics
 
 ### 5.1 Sales Performance Analysis
-Analisis dilakukan berdasarkan beberapa dimensi bisnis yang tersedia dalam dataset, yaitu *product category*, *branch*, *customer type*, *gender*, *payment method*, dan *month*.
+Analisis dilakukan berdasarkan beberapa dimensi bisnis yang tersedia dalam dataset, yaitu *product category*, *branch*,*city*, *customer type*, *gender*, *payment method*, dan *date*.
 
 ## 5.1 Sales Performance Analysis
 
-Analisis dilakukan berdasarkan beberapa dimensi dan metrik bisnis yang tersedia dalam dataset untuk mengidentifikasi pola serta performa penjualan.
+Analisis dilakukan pada 6 dimensi bisnis, ditambah analisis waktu dan analisis silang untuk menjelaskan perubahan sales antar bulan.
 
-| Dimension | Metric yang dianalisis | Tujuan |
-| :--- | :--- | :--- |
-| **Product Category** | Total Sales, Sales Contribution %, Quantity, Gross Income | Menilai kontribusi dan performa tiap kategori produk |
-| **Branch & City** | Total Sales, Count Transaction Value, Quantity, Rating | Membandingkan performa dan *customer experience* antar lokasi |
-| **Customer Type** | Total Sales, Sales Contribution %, Count Transaction Value, Quantity | Memahami kontribusi dan nilai transaksi Member vs Normal |
-| **Gender** | Total Sales, Quantity, CountTransaction Value | Mengidentifikasi pola pembelian berdasarkan gender |
-| **Payment Method** | Transaction Count, Total Sales, Sales Contribution % | Memahami preferensi pembayaran dan kontribusinya terhadap transaksi |
-| **Month** | Total Sales, Quantity, Count Transaction Value | Mengidentifikasi perubahan dan fluktuasi performa penjualan |
-| **Product Category × Customer Type** | Sales, Quantity,Count Transaction Value | Menemukan kombinasi produk dan segmen pelanggan yang potensial |
-| **Product Category × Branch** | Sales, Sales Contribution %, Quantity | Mengidentifikasi kategori yang kuat/lemah di setiap cabang |
-
+| No | Dimension | Metric yang dianalisis | Tujuan |
+|----|-----------|------------------------|--------|
+| 1 | **Product Category** | Total Sales, Sales Contribution %, Quantity | Menilai kontribusi dan performa tiap kategori produk | 
+| 2 | **Branch & City** | Total Sales, Sales Contribution %, Quantity, Avg Rating | Membandingkan performa dan pengalaman pelanggan antar lokasi |
+| 3 | **Customer Type** | Total Sales, Transaction Count, Quantity, AOV | Membandingkan nilai transaksi Member vs Normal |
+| 4 | **Gender** | Total Sales, Transaction Count, Quantity, AOV | Mengidentifikasi pola pembelian Female vs Male | 
+| 5 | **Payment Method** | Transaction Count, Total Sales, Sales Contribution % | Memahami preferensi pembayaran dan kontribusinya |
+| 6 | **Month** | Total Sales, Transaction Count, Quantity, MoM Growth % | Melihat perubahan sales antar bulan (Jan-Mar) | 
+| 7 | **Hour** | Transaction Count, Total Sales, Sales Contribution % | Menemukan jam puncak transaksi |
+| 8 | **Month × Customer Type / City** | Total Sales, Transaction Count, Selisih antar bulan | Menemukan dimensi yang berkontribusi pada perubahan sales |
 ---
 
 ### 5.2 Performance Metrics
