@@ -129,7 +129,7 @@ Metrik utama yang digunakan dalam analisis ini meliputi:
 ## 7. Dashboard
 Project ini dirancang sebagai analisis end-to-end yang membentuk satu alur cerita, mulai dari identifikasi business problem, eksplorasi data, penemuan insight, hingga penyusunan dasar rekomendasi bisnis.
 
-![Dashboard](Dashboard/dashboard-super.png)
+![Dashboard](Dashboard/dashboard-supermarket.png)
 
 ## 8. Insight
 1. Penjualan relatif merata antar kota (32,9-34,2%), produk (15,2-17,4%), dan metode pembayaran (31,2-34,7%), sehingga tidak ada satu dimensi yang terlalu dominan. Perbedaan paling jelas ada pada gender: Female menyumbang 60,3% total sales dan Male 39,7%. Dari sisi pembayaran, Cash memiliki sales tertinggi ($112,21K), sedangkan jumlah transaksi E-wallet dan Cash hampir sama (345 vs 344)
