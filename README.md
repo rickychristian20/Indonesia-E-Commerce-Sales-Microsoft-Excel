@@ -108,15 +108,16 @@ Metrik utama yang digunakan dalam analisis ini meliputi:
 ## 6. Key Findings
 
 ### 1. Sales Performance by Branch
-* **Giza** mencatatkan *sales* tertinggi sebesar **$110,568.71**, sedangkan **Cairo** mencatat *sales* terendah sebesar **$106,197.67**. 
+* **Giza** mencatatkan *sales* tertinggi sebesar $ 110,57 K, sedangkan **Cairo** mencatat *sales* terendah sebesar $ 106,2 K. 
  Perbedaannya relatif kecil (stabil), sehingga secara keseluruhan performa penjualan antar cabang cukup merata.
 
 ### 2. Product Category Performance
-* **Food And Beverages Menjadi Product Paling Banyak Terjual**.
+* **Food And Beverages Menjadi Product Paling Banyak Terjual sebesar 952 Pcs dengan total Sales sebesar $ 56,14 K, sedangkan Health and beauty menjadi product paling sedikit terjual sebesar 854 Pcs dengan total sales sebesar $ 49,19 K.
+**.
  > **Insight:** Terdapat perbedaan kontribusi antar kategori produk yang dapat dijadikan dasar dalam mengevaluasi strategi *product mix* dan alokasi stok.
 
 ### 3. Customer Segment
-* **Member** menghasilkan *sales* sebesar **$189,694.76** (*volume* 3,181 unit), jauh lebih tinggi dibandingkan **Normal Customer** sebesar **$133,271.99** (*volume* 2,329 unit).
+* **Member** menghasilkan *sales* sebesar $ 189,69 K (*volume* 3,181 unit), jauh lebih tinggi dibandingkan **Normal Customer** sebesar $ 133,27 K (*volume* 2,329 unit).
  > **Insight:** Segmen *Member* merupakan pendorong utama kontribusi penjualan bisnis.
 
 ### 4. Payment Behavior
@@ -138,9 +139,16 @@ Project ini dirancang sebagai analisis end-to-end yang membentuk satu alur cerit
 ![Dashboard](Dashboard/dashboard-super.png)
 
 ## 8. Insight
+1. Penjualan relatif merata antar kota (32,9-34,2%), produk (15,2-17,4%), dan metode pembayaran (31,2-34,7%), sehingga tidak ada satu dimensi yang terlalu dominan. Perbedaan paling jelas ada pada gender: Female menyumbang 60,3% total sales dan Male 39,7%. Dari sisi pembayaran, Cash memiliki sales tertinggi ($112,21K), sedangkan jumlah transaksi E-wallet dan Cash hampir sama (345 vs 344)
+2.Naypyitaw dipertahankan karena sales ($110,57K) dan rating (7,1) tertinggi di antara kota lain. Yangon dan Mandalay memiliki potensi peningkatan. Yangon mencatat unit terjual tertinggi (1.859 pcs) tetapi total sales lebih rendah dan sales-nya paling fluktuatif antar bulan. Mandalay memiliki rating terendah (6,8) dibanding kota lainnya.
+3. Sales turun 16,4% dari Januari ke Februari ($116,29K → $97,22K), lalu pulih 12,6% di Maret tetapi masih 5,9% di bawah Januari. Penurunan Februari terutama didorong oleh jumlah transaksi yang turun (352 → 303), dengan kontribusi terbesar dari pelanggan Normal (64% dari total penurunan). Dari sisi kota, Yangon dan Naypyitaw menyumbang sekitar 85% penurunan tersebut. Dari sisi produk, penurunan terbesar terjadi pada kategori Sports and travel & Home and lifestyle.
+4. Member cenderung membeli dengan quantity (5,63 vs 5,35 pcs per transaksi) dan nominal (rata-rata $336 vs $306 per transaksi) lebih besar daripada pelanggan Normal, meskipun selisih nominalnya bervariasi antar bulan. Dari sisi waktu, pembelian memuncak pada pukul 19:00 (12,3% sales), disusul pukul 13:00 dan 15:00. Karena dataset tidak memiliki customer ID, temuan ini menunjukkan korelasi dan belum membuktikan bahwa membership yang menyebabkan belanja lebih besar.
 
 ## 9. Recommendations
-
+1. Fokus pada segmen pelanggan karena perbedaannya paling nyata. Naikkan nilai belanja Male (sekitar $299 vs $341 Female) lewat promo bundling.
+2. Jadikan Naypyitaw acuan untuk kota lain. Dorong upselling di Yangon agar nilai per unit naik, dan evaluasi layanan di Mandalay untuk memperbaiki rating (6,8) serta AOV-nya.
+3. Buat promo awal Februari yang menyasar pelanggan Normal, dan pantau jumlah transaksi mingguan sebagai indikator dini.
+4. Dorong konversi Normal menjadi Member di kasir, dan siapkan staf serta stok lebih banyak pada jam puncak 19:00.
 
 ## 7. Limitations & Methodology Notes
 
