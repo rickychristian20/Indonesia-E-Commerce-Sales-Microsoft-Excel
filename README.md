@@ -80,12 +80,12 @@ Analisis dilakukan pada 6 dimensi bisnis, ditambah analisis waktu dan analisis s
 |----|-----------|------------------------|--------|
 | 1 | **Product Category** | Total Sales, Sales Contribution %, Quantity | Menilai kontribusi dan performa tiap kategori produk | 
 | 2 | **Branch & City** | Total Sales, Sales Contribution %, Quantity, Avg Rating | Membandingkan performa dan pengalaman pelanggan antar lokasi |
-| 3 | **Customer Type** | Total Sales, Transaction Count, Quantity, AOV | Membandingkan nilai transaksi Member vs Normal |
-| 4 | **Gender** | Total Sales, Transaction Count, Quantity, AOV | Mengidentifikasi pola pembelian Female vs Male | 
+| 3 | **Customer Type** | Total Sales, Transaction Count, Quantity | Membandingkan nilai transaksi Member vs Normal |
+| 4 | **Gender** | Total Sales, Transaction Count, Quantity | Mengidentifikasi pola pembelian Female vs Male | 
 | 5 | **Payment Method** | Transaction Count, Total Sales, Sales Contribution % | Memahami preferensi pembayaran dan kontribusinya |
 | 6 | **Month** | Total Sales, Transaction Count, Quantity, MoM Growth % | Melihat perubahan sales antar bulan (Jan-Mar) | 
 | 7 | **Hour** | Transaction Count, Total Sales, Sales Contribution % | Menemukan jam puncak transaksi |
-| 8 | **Month × Customer Type / City** | Total Sales, Transaction Count, Selisih antar bulan | Menemukan dimensi yang berkontribusi pada perubahan sales |
+| 8 | **Month × Customer Type** | Total Sales, Transaction Count, Selisih antar bulan | Menemukan dimensi yang berkontribusi pada perubahan sales |
 ---
 
 ### 5.2 Performance Metrics
