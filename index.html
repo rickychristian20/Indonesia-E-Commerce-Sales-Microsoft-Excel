@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Supermarket Sales Analysis | Ricky Christian Simatupang</title>
+<style>
+:root{--navy:#111f30;--orange:#e87e2c;--bg:#f7f8fa;--text:#232a32;--muted:#66707a;--white:#fff;--line:#e1e4e8}
+*{box-sizing:border-box}body{margin:0;font-family:Inter,Segoe UI,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.6}
+nav{position:sticky;top:0;z-index:10;background:rgba(17,31,48,.96);backdrop-filter:blur(8px);padding:14px 6%;display:flex;justify-content:space-between;align-items:center}
+nav b{color:#fff}nav a{color:#dfe5eb;text-decoration:none;margin-left:20px;font-size:13px}nav a:hover{color:#fff}
+.hero{background:var(--navy);color:#fff;padding:88px 7% 75px}.hero small{color:#f2a15e;font-weight:700;letter-spacing:1.5px}.hero h1{font-size:54px;line-height:1.05;margin:16px 0}.hero p{max-width:780px;color:#cbd4dc;font-size:18px}.btn{display:inline-block;margin-top:22px;background:var(--orange);color:#fff;padding:12px 20px;border-radius:10px;text-decoration:none;font-weight:700}
+main{max-width:1120px;margin:auto;padding:55px 22px}section{margin-bottom:65px}h2{font-size:30px;color:var(--navy);margin:0 0 10px}h3{color:var(--navy)}.lead{color:var(--muted);max-width:850px}
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:15px}.card{background:#fff;border:1px solid var(--line);border-radius:14px;padding:20px}.card .num{font-size:26px;font-weight:800;color:var(--orange)}.card small{color:var(--muted)}
+.problem{display:grid;grid-template-columns:1.1fr .9fr;gap:22px}.panel{background:#fff;border:1px solid var(--line);border-radius:16px;padding:24px}.panel ul{margin:8px 0;padding-left:20px}
+.flow{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}.flow .card{text-align:center}.flow strong{display:block;color:var(--orange);font-size:13px}
+table{width:100%;border-collapse:collapse;background:#fff;border-radius:14px;overflow:hidden;border:1px solid var(--line);font-size:14px}th{background:var(--navy);color:#fff;text-align:left;padding:13px}td{padding:13px;border-top:1px solid var(--line);vertical-align:top}tr:nth-child(even){background:#fafbfc}
+.finding{display:grid;grid-template-columns:1fr 1fr;gap:20px}.finding .big{font-size:42px;font-weight:800;color:var(--orange)}.finding .red{color:#c24343}
+.quote{border-left:5px solid var(--orange);background:#fff;padding:18px 22px;border-radius:0 12px 12px 0}
+.recs{display:grid;grid-template-columns:repeat(2,1fr);gap:15px}.rec{background:#fff;border:1px solid var(--line);padding:20px;border-radius:14px}.rec b{color:var(--orange)}
+footer{background:var(--navy);color:#cbd4dc;text-align:center;padding:35px 20px}footer b{color:#fff}
+@media(max-width:800px){.grid,.flow,.finding,.recs,.problem{grid-template-columns:1fr 1fr}.hero h1{font-size:40px}}@media(max-width:560px){.grid,.flow,.finding,.recs,.problem{grid-template-columns:1fr}.hero h1{font-size:34px}nav a{display:none}table{font-size:12px}}
+</style>
+</head>
+<body>
+<nav><b>RICKY CHRISTIAN</b><div><a href="#overview">Overview</a><a href="#approach">Analisis</a><a href="#findings">Temuan</a><a href="#recommendations">Rekomendasi</a></div></nav>
+<header class="hero">
+<small>DATA ANALYST PORTFOLIO</small>
+<h1>Supermarket<br>Sales Analysis</h1>
+<p>Analisis end-to-end menggunakan Microsoft Excel untuk memahami performa penjualan, pelanggan, lokasi, produk, pembayaran, dan perubahan sales antarperiode.</p>
+<a class="btn" href="#findings">Lihat Temuan Utama ↓</a>
+</header>
+<main>
+<section id="overview">
+<h2>Project Overview</h2><p class="lead">Project ini berfokus pada pertanyaan bisnis: <b>bagaimana performa sales berubah, dimensi apa yang berkontribusi terhadap perubahan, dan pola pelanggan/waktu apa yang perlu diperhatikan?</b></p>
+<div class="grid">
+<div class="card"><div class="num">$322,97K</div><small>Total Sales</small></div>
+<div class="card"><div class="num">5.510</div><small>Total Quantity</small></div>
+<div class="card"><div class="num">$15,38K</div><small>Gross Income</small></div>
+<div class="card"><div class="num">6,97</div><small>Rata-rata Rating</small></div>
+</div>
+</section>
+
+<section>
+<h2>Business Understanding</h2>
+<div class="problem">
+<div class="panel"><h3>Masalah Bisnis</h3><ul><li>Perubahan performa sales antarperiode belum terlihat jelas.</li><li>Ketika sales turun, perlu diketahui dimensi bisnis yang berkontribusi.</li><li>Insight dibutuhkan sebagai dasar evaluasi dan pengujian keputusan bisnis.</li></ul></div>
+<div class="panel"><h3>Pertanyaan Bisnis</h3><ul><li>Bagaimana sales berubah dari waktu ke waktu?</li><li>Dimensi apa yang berkontribusi terhadap perubahan?</li><li>Pola pelanggan dan waktu apa yang perlu diperhatikan?</li></ul></div>
+</div>
+</section>
+
+<section id="approach">
+<h2>Data & Pendekatan Analisis</h2><p class="lead">Public Supermarket Sales Dataset • Januari–Maret 2019</p>
+<div class="grid" style="margin:20px 0 25px"><div class="card"><div class="num">1.000</div><small>Transaksi</small></div><div class="card"><div class="num">3</div><small>Cabang</small></div><div class="card"><div class="num">3</div><small>Kota</small></div><div class="card"><div class="num">6</div><small>Kategori Produk</small></div></div>
+<div class="flow"><div class="card"><strong>01</strong>Pembersihan Data</div><div class="card"><strong>02</strong>Analisis Penjualan</div><div class="card"><strong>03</strong>Analisis Diagnostik</div><div class="card"><strong>04</strong>Dashboard</div></div>
+</section>
+
+<section>
+<h2>5.1 Sales Performance Analysis</h2>
+<p class="lead">Dimensi dan metrik dipilih untuk menjawab kebutuhan bisnis, bukan sekadar membuat visualisasi.</p>
+<table>
+<thead><tr><th>No</th><th>Dimensi</th><th>Metrik yang Dianalisis</th><th>Tujuan Analisis</th></tr></thead>
+<tbody>
+<tr><td>1</td><td><b>Product Category</b></td><td>Total Sales, Sales Contribution %, Quantity</td><td>Menilai kontribusi dan performa tiap kategori produk.</td></tr>
+<tr><td>2</td><td><b>Branch & City</b></td><td>Total Sales, Sales Contribution %, Quantity, Avg Rating</td><td>Membandingkan performa dan pengalaman pelanggan antar lokasi.</td></tr>
+<tr><td>3</td><td><b>Customer Type</b></td><td>Total Sales, Transaction Count, Quantity, Avg Transaction</td><td>Membandingkan nilai transaksi Member vs Normal.</td></tr>
+<tr><td>4</td><td><b>Gender</b></td><td>Total Sales, Transaction Count, Quantity, Avg Transaction</td><td>Mengidentifikasi pola pembelian Female vs Male.</td></tr>
+<tr><td>5</td><td><b>Payment Method</b></td><td>Transaction Count, Total Sales, Sales Contribution %</td><td>Memahami preferensi pembayaran dan kontribusinya.</td></tr>
+<tr><td>6</td><td><b>Month</b></td><td>Total Sales, Transaction Count, Quantity, MoM Growth %</td><td>Melihat perubahan sales antar bulan.</td></tr>
+<tr><td>7</td><td><b>Hour</b></td><td>Transaction Count, Total Sales, Sales Contribution %</td><td>Menemukan jam puncak transaksi.</td></tr>
+<tr><td>8</td><td><b>Month × Customer Type</b></td><td>Total Sales, Transaction Count, Selisih antar bulan</td><td>Menemukan dimensi yang berkontribusi pada perubahan sales.</td></tr>
+</tbody></table>
+</section>
+
+<section id="findings">
+<h2>Temuan Utama</h2>
+<div class="finding">
+<div class="panel"><div class="big red">-16,4%</div><h3>Penurunan Sales Januari → Februari</h3><p>$116,29K menjadi $97,22K.</p><p>Jumlah transaksi juga turun dari <b>1.965 menjadi 1.654</b>.</p></div>
+<div class="panel"><div class="big">-24%</div><h3>Customer Normal pada Februari</h3><p>Penjualan segmen Normal turun dibandingkan Januari dan menjadi salah satu dimensi penting dalam evaluasi penurunan sales.</p></div>
+</div>
+<div class="quote" style="margin-top:20px"><b>Temuan diagnostik:</b> Penurunan sales Februari beriringan dengan penurunan jumlah transaksi, terutama pada Customer Normal. Temuan ini bersifat deskriptif/diagnostik dan tidak membuktikan hubungan sebab-akibat.</div>
+<div class="grid" style="margin-top:20px">
+<div class="card"><div class="num">$189,69K</div><small>Sales Member</small></div>
+<div class="card"><div class="num">$110,57K</div><small>Sales Naypyitaw</small></div>
+<div class="card"><div class="num">19:00</div><small>Jam Sales Tertinggi</small></div>
+<div class="card"><div class="num">60,3%</div><small>Kontribusi Female</small></div>
+</div>
+</section>
+
+<section id="recommendations">
+<h2>Rekomendasi Bisnis</h2>
+<div class="recs">
+<div class="rec"><b>01 — Uji Promo</b><p>Uji promo awal Februari yang menyasar Customer Normal, lalu ukur perubahan transaksi dan sales.</p></div>
+<div class="rec"><b>02 — Benchmark</b><p>Gunakan Naypyitaw sebagai benchmark untuk mengevaluasi perbedaan performa kota lain.</p></div>
+<div class="rec"><b>03 — Operasional</b><p>Gunakan pola pukul 19:00 sebagai referensi evaluasi staffing dan kesiapan operasional.</p></div>
+<div class="rec"><b>04 — Bundling</b><p>Uji bundling/promosi untuk meningkatkan nilai transaksi pada segmen yang masih memiliki potensi.</p></div>
+</div>
+</section>
+
+<section>
+<h2>Dashboard</h2>
+<div class="panel"><h3>Supermarket Sales Dashboard</h3><p>Dashboard merangkum KPI, performa produk, lokasi, customer, pembayaran, dan tren waktu sebagai output akhir analisis.</p><a class="btn" href="https://github.com/rickychristian20/Supermarket-Sales-Analysis-Microsoft-Excel" target="_blank">Buka Repository GitHub</a></div>
+</section>
+
+<section>
+<h2>Keterbatasan Analisis</h2>
+<div class="panel"><ul><li>Dataset hanya mencakup 1.000 transaksi pada Januari–Maret 2019.</li><li>Tidak tersedia Customer ID unik, sehingga RFM, CLV, Churn, dan Retention tidak dapat dianalisis.</li><li>Analisis bersifat deskriptif dan diagnostik, bukan causal analysis.</li><li>Tidak tersedia data inventory, biaya promosi, marketing cost, atau operational cost.</li></ul></div>
+</section>
+</main>
+<footer><b>Ricky Christian Simatupang</b><br>Data Analyst Portfolio • Microsoft Excel</footer>
+</body>
+</html>
