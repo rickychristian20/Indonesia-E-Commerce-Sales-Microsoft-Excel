@@ -72,10 +72,6 @@ Melakukan data validation menggunakan pengecekan tipe data (ISNUMBER) untuk mema
 ### 5.1 Sales Performance Analysis
 Analisis dilakukan berdasarkan beberapa dimensi bisnis yang tersedia dalam dataset, yaitu *product category*, *branch*,*city*, *customer type*, *gender*, *payment method*, dan *date*.
 
-## 5.1 Sales Performance Analysis
-
-Analisis dilakukan pada 6 dimensi bisnis, ditambah analisis waktu dan analisis silang untuk menjelaskan perubahan sales antar bulan.
-
 | No | Dimension | Metric yang dianalisis | Tujuan |
 |----|-----------|------------------------|--------|
 | 1 | **Product Category** | Total Sales, Sales Contribution %, Quantity | Menilai kontribusi dan performa tiap kategori produk | 
@@ -100,17 +96,17 @@ Metrik utama yang digunakan dalam analisis ini meliputi:
 
 ## 6. Key Findings
 
-### 1. Product Category Performance
+### 6.1 Product Category Performance
 ![Images](Images/Product-kategori.png)
 * **Food and Beverages mencatatkan *sales* tertinggi sebesar $ 56,14 K dengan jumlah quantity sebesar 952 Pcs, sedangkan **Health and beauty** mencatat *sales* terendah sebesar $ 49,19 K dengan jumlah quantity 854 Pcs.*
 > **Insight:** F&B merupakan produk utama yang mendorong penjualan
 
-### 2. Performance by City
+### 6.2 Performance by City
 ![Images](Images/city.png)
 * **Naypyitaw menjadi kota dengan penjualan terbanyak sebesar $ 110,57 K dengan persentase kontribusi sales sebesar 34,24 % dan mempunyai rating tertinggi sebesar 7,1 dibanding kota Yangon dan Mandalay yang mempunyai sales hampir sama besar.*
  > **Insight:** Kota Naypyitaw menjadi kota dengan kontribusi penjualan terbesar dibanding kota Yangon dan Mandalay.
 
-### 3. Customer Segment
+### 6.3 Customer Segment
 ![Images](Images/customer.png)
 * **Member menghasilkan *sales* sebesar $ 189,69 K (*volume* 3,181 unit), jauh lebih tinggi dibandingkan **Normal Customer** sebesar $ 133,27 K (*volume* 2,329 unit).*
  > **Insight:** Segmen *Member* merupakan pendorong utama kontribusi penjualan bisnis dengan rata - rata $ 335,74 Per Transaksi
@@ -119,22 +115,22 @@ Metrik utama yang digunakan dalam analisis ini meliputi:
 * **Female menghasilkan *sales* sebesar $ 194,67 K (*volume* 3,288 unit), jauh lebih tinggi dibandingkan **Male** sebesar $ 128,29 K (*volume* 2,222 unit).*
  > **Insight:** Gender *Female* merupakan pendorong utama kontribusi penjualan bisnis.
 
-### 4. Payment Behavior
+### 6.4 Payment Behavior
 ![Images](Images/payment.png)
 * **Cash menjadi metode pembayaran utama dengan *sales* tertinggi sebesar **$112,206.57** dengan jumlah transaksi sebesar 34 % sedikit lebih sedikit dibanding dengan E - Wallet yang 35 %, diikuti oleh **Credit Card** sebesar **$100,767.07** dengan jumlah transaksi sebesar 31 %.*
  > **Insight:** Transaksi tunai (*Cash*) masih menjadi preferensi dominan pelanggan selama periode pengamatan.
 
-### 5. Sales Trend (Monthly Performance)
+### 6.5 Sales Trend (Monthly Performance)
 ![Images](Images/month.png)
 * **Penjualan tertinggi terjadi pada Januari ($116,291.87), kemudian mengalami penurunan sebesar 16,4 % pada Februari ($97,219.37), sebelum akhirnya bangkit kembali pada Maret ($109,455.51).*
  > **Insight:** Performa penjualan menunjukkan pola fluktuasi periodik, bukan tren penurunan yang konsisten.
 
-### 6. Sales Trend (Hours Performance)
+### 6.6 Sales Trend (Hours Performance)
 ![Images](Images/hour.png)
 * *Penjualan tertinggi terjadi pada Pukul 13.00 - 13.59  ($34,72 K) dan Pukul 19.00 - 19.59  ($39,70 K).* 
  > **Insight:** Performa penjualan menunjukkan pola sales by hours mengalami fluktuasi periodik.
 
-### 7. Customer Type Per Month
+### 6.7 Customer Type Per Month
 ![Images](Images/month-tr.png)
 * *Penjualan pada bulan februari terjadi penurunan oleh customer normal sebesar 24 % dibanding bulan januari namun meningkat sebesar 16 % pada bulan Maret* 
  > **Insight:** Penurunan sales Februari beriringan dengan penurunan jumlah transaksi, terutama pada Customer Normal, yang memberikan kontribusi besar terhadap penurunan sales.
