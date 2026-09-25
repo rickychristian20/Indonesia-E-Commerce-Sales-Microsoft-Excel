@@ -73,66 +73,16 @@ Melakukan data validation menggunakan pengecekan tipe data (ISNUMBER) untuk mema
 
 Analisis dilakukan berdasarkan beberapa dimensi bisnis yang tersedia dalam dataset, yaitu *product category*, *branch & city*, *customer type*, *gender*, *payment method*, dan *time*.
 
-<table>
-<thead>
-<tr>
-<th>No</th>
-<th>Dimensi</th>
-<th>Metrik yang Dianalisis</th>
-<th>Tujuan Analisis</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>1</td>
-<td><strong>Product Category</strong></td>
-<td>Total Sales, Sales Contribution %, Quantity</td>
-<td>Menilai kontribusi dan performa tiap kategori produk.</td>
-</tr>
-<tr>
-<td>2</td>
-<td><strong>Branch & City</strong></td>
-<td>Total Sales, Sales Contribution %, Quantity, Avg Rating</td>
-<td>Membandingkan performa dan pengalaman pelanggan antar lokasi.</td>
-</tr>
-<tr>
-<td>3</td>
-<td><strong>Customer Type</strong></td>
-<td>Total Sales, Transaction Count, Quantity, Avg Transaction</td>
-<td>Membandingkan nilai transaksi Member vs Normal.</td>
-</tr>
-<tr>
-<td>4</td>
-<td><strong>Gender</strong></td>
-<td>Total Sales, Transaction Count, Quantity, Avg Transaction</td>
-<td>Mengidentifikasi pola pembelian Female vs Male.</td>
-</tr>
-<tr>
-<td>5</td>
-<td><strong>Payment Method</strong></td>
-<td>Transaction Count, Total Sales, Sales Contribution %</td>
-<td>Memahami preferensi pembayaran dan kontribusinya.</td>
-</tr>
-<tr>
-<td>6</td>
-<td><strong>Month</strong></td>
-<td>Total Sales, Transaction Count, Quantity, MoM Growth %</td>
-<td>Melihat perubahan sales antar bulan.</td>
-</tr>
-<tr>
-<td>7</td>
-<td><strong>Hour</strong></td>
-<td>Transaction Count, Total Sales, Sales Contribution %</td>
-<td>Menemukan jam puncak transaksi.</td>
-</tr>
-<tr>
-<td>8</td>
-<td><strong>Month × Customer Type</strong></td>
-<td>Total Sales, Transaction Count, Selisih antar bulan</td>
-<td>Menemukan dimensi yang berkontribusi pada perubahan sales.</td>
-</tr>
-</tbody>
-</table>
+| No | Dimensi | Metrik yang Dianalisis | Tujuan Analisis |
+| :--- | :--- | :--- | :--- |
+| 1 | **Product Category** | Total Sales, Sales Contribution %, Quantity | Menilai kontribusi dan performa tiap kategori produk. |
+| 2 | **Branch & City** | Total Sales, Sales Contribution %, Quantity, Avg Rating | Membandingkan performa dan pengalaman pelanggan antar lokasi. |
+| 3 | **Customer Type** | Total Sales, Transaction Count, Quantity, Avg Transaction | Membandingkan nilai transaksi Member vs Normal. |
+| 4 | **Gender** | Total Sales, Transaction Count, Quantity, Avg Transaction | Mengidentifikasi pola pembelian Female vs Male. |
+| 5 | **Payment Method** | Transaction Count, Total Sales, Sales Contribution % | Memahami preferensi pembayaran dan kontribusinya. |
+| 6 | **Month** | Total Sales, Transaction Count, Quantity, MoM Growth % | Melihat perubahan sales antar bulan. |
+| 7 | **Hour** | Transaction Count, Total Sales, Sales Contribution % | Menemukan jam puncak transaksi. |
+| 8 | **Month × Customer Type** | Total Sales, Transaction Count, Selisih antar bulan | Menemukan dimensi yang berkontribusi pada perubahan sales. |
 
 ### 5.2 Performance Metrics
 Metrik utama yang digunakan dalam analisis ini meliputi:
