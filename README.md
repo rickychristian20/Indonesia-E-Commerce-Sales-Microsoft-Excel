@@ -98,31 +98,31 @@ Metrik utama yang digunakan dalam analisis ini meliputi:
 
 ### 6.1 Product Category Performance
 ![Images](Images/Product-kategori.png)
-* **Food and Beverages mencatatkan *sales* tertinggi sebesar $ 56,14 K dengan jumlah quantity sebesar 952 Pcs, sedangkan **Health and beauty** mencatat *sales* terendah sebesar $ 49,19 K dengan jumlah quantity 854 Pcs.*
+* *Food and Beverages mencatatkan *sales* tertinggi sebesar $ 56,14 K dengan jumlah quantity sebesar 952 Pcs, sedangkan **Health and beauty** mencatat *sales* terendah sebesar $ 49,19 K dengan jumlah quantity 854 Pcs.*
 > **Insight:** F&B merupakan produk utama yang mendorong penjualan
 
 ### 6.2 Performance by City
 ![Images](Images/city.png)
-* **Naypyitaw menjadi kota dengan penjualan terbanyak sebesar $ 110,57 K dengan persentase kontribusi sales sebesar 34,24 % dan mempunyai rating tertinggi sebesar 7,1 dibanding kota Yangon dan Mandalay yang mempunyai sales hampir sama besar.*
+* *Naypyitaw menjadi kota dengan penjualan terbanyak sebesar $ 110,57 K dengan persentase kontribusi sales sebesar 34,24 % dan mempunyai rating tertinggi sebesar 7,1 dibanding kota Yangon dan Mandalay yang mempunyai sales hampir sama besar.*
  > **Insight:** Kota Naypyitaw menjadi kota dengan kontribusi penjualan terbesar dibanding kota Yangon dan Mandalay.
 
 ### 6.3 Customer Segment
 ![Images](Images/customer.png)
-* **Member menghasilkan *sales* sebesar $ 189,69 K (*volume* 3,181 unit), jauh lebih tinggi dibandingkan **Normal Customer** sebesar $ 133,27 K (*volume* 2,329 unit).*
+* *Member menghasilkan *sales* sebesar $ 189,69 K (*volume* 3,181 unit), jauh lebih tinggi dibandingkan **Normal Customer** sebesar $ 133,27 K (*volume* 2,329 unit).*
  > **Insight:** Segmen *Member* merupakan pendorong utama kontribusi penjualan bisnis dengan rata - rata $ 335,74 Per Transaksi
 
 ![Images](Images/gender.png)
-* **Female menghasilkan *sales* sebesar $ 194,67 K (*volume* 3,288 unit), jauh lebih tinggi dibandingkan **Male** sebesar $ 128,29 K (*volume* 2,222 unit).*
+* *Female menghasilkan *sales* sebesar $ 194,67 K (*volume* 3,288 unit), jauh lebih tinggi dibandingkan **Male** sebesar $ 128,29 K (*volume* 2,222 unit).*
  > **Insight:** Gender *Female* merupakan pendorong utama kontribusi penjualan bisnis.
 
 ### 6.4 Payment Behavior
 ![Images](Images/payment.png)
-* **Cash menjadi metode pembayaran utama dengan *sales* tertinggi sebesar **$112,206.57** dengan jumlah transaksi sebesar 34 % sedikit lebih sedikit dibanding dengan E - Wallet yang 35 %, diikuti oleh **Credit Card** sebesar **$100,767.07** dengan jumlah transaksi sebesar 31 %.*
+* *Cash menjadi metode pembayaran utama dengan *sales* tertinggi sebesar **$112,206.57** dengan jumlah transaksi sebesar 34 % sedikit lebih sedikit dibanding dengan E - Wallet yang 35 %, diikuti oleh **Credit Card** sebesar **$100,767.07** dengan jumlah transaksi sebesar 31 %.*
  > **Insight:** Transaksi tunai (*Cash*) masih menjadi preferensi dominan pelanggan selama periode pengamatan.
 
 ### 6.5 Sales Trend (Monthly Performance)
 ![Images](Images/month.png)
-* **Penjualan tertinggi terjadi pada Januari ($116,291.87), kemudian mengalami penurunan sebesar 16,4 % pada Februari ($97,219.37), sebelum akhirnya bangkit kembali pada Maret ($109,455.51).*
+* *Penjualan tertinggi terjadi pada Januari ($116,291.87), kemudian mengalami penurunan sebesar 16,4 % pada Februari ($97,219.37), sebelum akhirnya bangkit kembali pada Maret ($109,455.51).*
  > **Insight:** Performa penjualan menunjukkan pola fluktuasi periodik, bukan tren penurunan yang konsisten.
 
 ### 6.6 Sales Trend (Hours Performance)
